@@ -1,0 +1,6 @@
+## Set environment variables for the script to use
+export MAINNET_PROVIDER_URL="https://mainnet.infura.io/v3/127e91b3eaa940d1a9e070cef5cae0b3"
+export DEV_ETH_MNEMONIC="leopard violin brief crash police reward hospital blush hazard heavy swim february"
+## Runs the Hardhat node locally
+## Also seeds your first mnemonic account with test Ether and ERC20s
+node ./scripts/run-localhost-fork.js
